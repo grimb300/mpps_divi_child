@@ -1,0 +1,116 @@
+<link rel="preconnect" href="https://fonts.gstatic.com" />
+<link
+  href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap"
+  rel="stylesheet"
+/>
+<script>
+  (function ($) {
+    function setup_collapsible_submenus() {
+      // Add mobile submenu toggles to the mobile menu
+      $(
+        ".collapsing-mobile-submenu ul.et_mobile_menu li.menu-item-has-children"
+      ).append('<a href="#" class="mobile-submenu-toggle"></a>');
+
+      // Handle clicks to the mobile submenu toggles
+      $(".mobile-submenu-toggle").click(function (event) {
+        event.preventDefault();
+        $(this)
+          .parent("li.menu-item-has-children")
+          .toggleClass("mobile-submenu-open");
+      });
+    }
+
+    // This is a dirty trick that Divi plays on the unsuspecting.
+    // The mobile menu is created by their JavaScript sometime
+    // after everything is loaded.
+    // Therefore, it is necessary to wait this seemingly arbitrary
+    // amount of time before executing my JavaScript.
+    // Found this through their example code here:
+    //  https://www.elegantthemes.com/blog/divi-resources/how-to-create-a-mobile-collapsing-nested-menu-with-divis-theme-builder
+    $(window).load(function () {
+      setTimeout(function () {
+        setup_collapsible_submenus();
+      }, 700);
+    });
+  })(jQuery);
+</script>
+<script>
+  //////////////////////////////////////////////////////
+  // This is the legacy mobile menu control. Remove ASAP
+  //////////////////////////////////////////////////////
+
+  // (function($) {
+
+  //     function setup_collapsible_submenus() {
+  //         var $menu = $('#mobile_menu'),
+  //             top_level_link = '.menu-item-has-children > a';
+  //         $menu.find('a').each(function() {
+  //             $(this).off('click');
+
+  //             if ( $(this).is(top_level_link) ) {
+  //                 $(this).attr('href', '#');
+  //                 $(this).next('.sub-menu').addClass('hide');
+  //             }
+
+  //             if ( ! $(this).siblings('.sub-menu').length ) {
+  //                 $(this).on('click', function(event) {
+  //                     $(this).parents('.mobile_nav').trigger('click');
+  //                 });
+  //             } else {
+  //                 $(this).on('click', function(event) {
+  //                     event.preventDefault();
+  //                     $(this).next('.sub-menu').toggleClass('visible');
+  //                 });
+  //             }
+  //         });
+  //     }
+
+  //     $(window).load(function() {
+  //         setTimeout(function() {
+  //             setup_collapsible_submenus();
+  //         }, 700);
+  //     });
+
+  // })(jQuery);
+</script>
+
+<link
+  rel="stylesheet"
+  type="text/css"
+  href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+/>
+<script
+  type="text/javascript"
+  src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+></script>
+
+<link
+  href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+  rel="stylesheet"
+  integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+  crossorigin="anonymous"
+/>
+<link
+  href="https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700"
+  rel="stylesheet"
+/>
+
+<!-- Google Tag Manager -->
+<script>
+  (function (w, d, s, l, i) {
+    w[l] = w[l] || [];
+    w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+    var f = d.getElementsByTagName(s)[0],
+      j = d.createElement(s),
+      dl = l != "dataLayer" ? "&l=" + l : "";
+    j.async = true;
+    j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+    f.parentNode.insertBefore(j, f);
+  })(window, document, "script", "dataLayer", "GTM-NCT5WBD");
+</script>
+<!-- End Google Tag Manager -->
+
+<meta
+  name="google-site-verification"
+  content="5--BJcGZ0JPVMy9_04SA1-iVC9NSPWQeUuU8R4E7r6U"
+/>

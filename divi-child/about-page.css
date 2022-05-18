@@ -1,0 +1,51 @@
+.fancy-tabs .et_pb_tabs_controls {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: transparent;
+}
+
+.fancy-tabs .et_pb_tabs_controls li {
+  flex-basis: 150px;
+  flex-shrink: 0;
+  flex-grow: 0;
+  height: 150px !important;
+  border: none !important;
+}
+
+.fancy-tabs .et_pb_tabs_controls a {
+  background-color: lightblue;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.fancy-tabs .et_pb_tabs_controls .et_pb_tab_active a {
+  background-color: lightcoral;
+}
+
+.fancy-tabs .et_pb_tab_content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-evenly;
+}
+
+.fancy-tabs .et_pb_tab_content p {
+  /* background-color: lightsalmon; */
+  flex-basis: 150px;
+  flex-shrink: 0;
+  flex-grow: 0;
+  height: 75px !important;
+  text-align: center;
+  display: table;
+  padding: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.fancy-tabs .et_pb_tab_content p a {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/* Old color scheme/text styles */
