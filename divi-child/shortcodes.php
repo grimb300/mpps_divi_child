@@ -12,7 +12,7 @@ function blog_postlist($atts) {
 
     return $html . $output;
 }
-add_shortcode('post-date', 'blog_postlist');
+// add_shortcode('post-date', 'blog_postlist');
 
 function practice_year($atts) {
     global $post;
@@ -28,7 +28,7 @@ function practice_year($atts) {
 
     return $diff . $output;
 }
-add_shortcode('practice-year', 'practice_year');
+// add_shortcode('practice-year', 'practice_year');
 
 function blog_postlist1($atts) {
     global $post;
@@ -42,7 +42,7 @@ function blog_postlist1($atts) {
 
     return $html . $output;
 }
-add_shortcode('post-title', 'blog_postlist1');
+// add_shortcode('post-title', 'blog_postlist1');
 
 function bio_postlist($atts) {
     global $post;
@@ -55,7 +55,7 @@ function bio_postlist($atts) {
 
     return $html . $output;
 }
-add_shortcode('user-bio', 'bio_postlist');
+// add_shortcode('user-bio', 'bio_postlist');
 
 function blog_postlist2($atts) {
     global $post;
@@ -66,7 +66,7 @@ function blog_postlist2($atts) {
 
     return $html . $output;
 }
-add_shortcode('post-image', 'blog_postlist2');
+// add_shortcode('post-image', 'blog_postlist2');
 
 /*---Header Title----*/
 function header_title() {
@@ -83,7 +83,7 @@ function header_title() {
 
     return $html;
 }
-add_shortcode('header-title', 'header_title');
+// add_shortcode('header-title', 'header_title');
 
 function header_title1() {
     ob_start();
@@ -99,7 +99,7 @@ function header_title1() {
 
     return $html;
 }
-add_shortcode('header-tagline', 'header_title1');
+// add_shortcode('header-tagline', 'header_title1');
 
 /*---Header Title----*/
 function header_title_link() {
@@ -116,7 +116,7 @@ function header_title_link() {
 
     return $html;
 }
-add_shortcode('header-title-link', 'header_title_link');
+// add_shortcode('header-title-link', 'header_title_link');
 
 /*---Telephone----*/
 function tele_phone() {
@@ -133,7 +133,7 @@ function tele_phone() {
 
     return $html;
 }
-add_shortcode('telephone', 'tele_phone');
+// add_shortcode('telephone', 'tele_phone');
 
 /*---Address----*/
 function site_address() {
@@ -150,7 +150,7 @@ function site_address() {
 
     return $html;
 }
-add_shortcode('address', 'site_address');
+// add_shortcode('address', 'site_address');
 
 function site_address1() {
     ob_start();
@@ -166,7 +166,7 @@ function site_address1() {
 
     return $html;
 }
-add_shortcode('map-link', 'site_address1');
+// add_shortcode('map-link', 'site_address1');
 
 function site_address2() {
     ob_start();
@@ -182,7 +182,7 @@ function site_address2() {
 
     return $html;
 }
-add_shortcode('map-code', 'site_address2');
+// add_shortcode('map-code', 'site_address2');
 
 /*---Email----*/
 function site_email() {
@@ -199,7 +199,7 @@ function site_email() {
 
     return $html;
 }
-add_shortcode('email', 'site_email');
+// add_shortcode('email', 'site_email');
 
 /*---banner_headline----*/
 function banner_headline() {
@@ -216,7 +216,7 @@ function banner_headline() {
 
     return $html;
 }
-add_shortcode('banner-headline', 'banner_headline');
+// add_shortcode('banner-headline', 'banner_headline');
 
 /*---banner_headline_subtext----*/
 function banner_headline_subtext() {
@@ -233,7 +233,7 @@ function banner_headline_subtext() {
 
     return $html;
 }
-add_shortcode('banner-subtext', 'banner_headline_subtext');
+// add_shortcode('banner-subtext', 'banner_headline_subtext');
 
 /*---therapy_services1----*/
 function therapy_services1() {
@@ -250,7 +250,7 @@ function therapy_services1() {
 
     return $html;
 }
-add_shortcode('services1', 'therapy_services1');
+// add_shortcode('services1', 'therapy_services1');
 
 /*---therapy_services2----*/
 function therapy_services2() {
@@ -267,7 +267,7 @@ function therapy_services2() {
 
     return $html;
 }
-add_shortcode('services2', 'therapy_services2');
+// add_shortcode('services2', 'therapy_services2');
 
 /*---therapy_services3----*/
 function therapy_services3() {
@@ -284,7 +284,7 @@ function therapy_services3() {
 
     return $html;
 }
-add_shortcode('services3', 'therapy_services3');
+// add_shortcode('services3', 'therapy_services3');
 
 /*---therapy_quote----*/
 function therapy_quote() {
@@ -301,7 +301,7 @@ function therapy_quote() {
 
     return $html;
 }
-add_shortcode('quote-text', 'therapy_quote');
+// add_shortcode('quote-text', 'therapy_quote');
 
 /*---About_text----*/
 function about_text() {
@@ -318,7 +318,7 @@ function about_text() {
 
     return $html;
 }
-add_shortcode('about-text', 'about_text');
+// add_shortcode('about-text', 'about_text');
 
 function all_testimonial($atts) {
     global $post;
@@ -716,13 +716,18 @@ function all_testimonial12($atts) {
 
     return $html . $output;
 }
-add_shortcode('testimonial-slider-full', 'all_testimonial12');
+// add_shortcode('testimonial-slider-full', 'all_testimonial12');
 
 function all_testimonialmenu() {
     global $post;
     ob_start();
+
     $dropdown = '<div class="TestiDropdownMenu">';
     $dropdown .= '<div><span>View testimonials and reviews from:</span></div>';
+
+    // Testing something
+    // $dropdown .= '<div>Current URL: ' . get_permalink() . '</div>';
+    $current_url = get_permalink();
 
     $count_args2 = [
         'post_type' => 'as_testimonial',
@@ -733,7 +738,11 @@ function all_testimonialmenu() {
     $total_count3 = $total_count2 - 3;
 
     $dropdown .= '<div><select onChange="window.location.href=this.value">';
-    $dropdown .= '<option value="' . get_permalink(3737) . '" selected>All (' . $total_count3 . ')</option>';
+
+    $testimonials_url = get_permalink(3737);
+    $selected = $current_url === $testimonials_url ? ' selected' : '';
+    // $dropdown .= '<option value="' . get_permalink(3737) . '" selected>All (' . $total_count3 . ')</option>';
+    $dropdown .= sprintf( '<option value="%s"%s>All (%s)</option>', $testimonials_url, $selected, $total_count3 );
 
     $terms1 = get_terms([
         'taxonomy' => 'types',
@@ -755,7 +764,11 @@ function all_testimonialmenu() {
 
         $total_count1 = count(get_posts($count_args1));
 
-        $dropdown .= '<option value="' . get_site_url() . '/testimonial-category/' . $tag1->slug . '">' . $tag1->name . ' (' . $total_count1 . ')</option>';
+        $category_url = sprintf( '%s%s/', $testimonials_url, $tag1->slug );
+        $selected = $current_url === $category_url ? ' selected' : '';
+
+        // $dropdown .= '<option value="' . get_site_url() . '/testimonial-category/' . $tag1->slug . '">' . $tag1->name . ' (' . $total_count1 . ')</option>';
+        $dropdown .= sprintf( '<option value="%s"%s>%s (%s)</option>', $category_url, $selected, $tag1->name, $total_count1 );
     }
     $dropdown .= '</select></div>';
     $dropdown .= '</div>';
@@ -806,14 +819,14 @@ function random_slide($atts) {
     return $html;
 }
 
-add_shortcode('random-slider', 'random_slide');
+// add_shortcode('random-slider', 'random_slide');
 
 function Formuser_name($atts) {
     return $_GET['uname'];
 }
-add_shortcode('Formuser-name', 'Formuser_name');
+// add_shortcode('Formuser-name', 'Formuser_name');
 
 function page_title_sc( ){
    return get_the_title();
 }
-add_shortcode( 'page_title', 'page_title_sc' );
+// add_shortcode( 'page_title', 'page_title_sc' );

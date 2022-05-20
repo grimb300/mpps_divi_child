@@ -1,0 +1,687 @@
+/* Leftover styles from the old testimonials slider */
+
+/* .Testimonials-slider p, .Testimonials-slider li {
+  line-height: 1.8em;
+  padding-bottom: 1em;
+  font-size: 18px;
+} */
+
+.Testimonial img {
+  margin-left: 99px;
+}
+.Testimonial h2 {
+
+  padding-top: 10px;
+  margin-bottom: 10px;
+  font-family: 'Nanum Gothic', sans-serif !important;
+  font-weight: 300 !important;
+  font-size: 28px;
+
+}
+
+.Testimonial h4 {
+  margin-right: 198px;
+  font-family: 'Nanum Gothic', sans-serif !important;
+  padding-top: 5px;
+
+}
+
+.Testimonial p:last-of-type {
+  padding-bottom: 1px;
+}
+
+.AllTestimonials>div {
+  break-inside: avoid;
+  padding: 9px;
+}
+
+
+.AllTestimonials>div>div {
+  background: #f0f0f0;
+  border-radius: 29px 8px 29px 8px;
+  padding: 20px 20px;
+font-family: 'Roboto', sans-serif;
+font-size:16px;
+color:#6b6b6b;
+text-align:center;
+font-weight: 400;
+}
+
+.AllTestimonials>div>div,.Testimonial-col3 {
+  background-color: #f0f0f0;
+  border-radius: 29px 8px 29px 8px;
+  padding: 75px 20px 15px 20px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #6b6b6b;
+  text-align: center;
+  font-weight: 400;
+  background-image: url(images/quote.png);
+  background-repeat: no-repeat;
+  background-position: 41px 33px;
+  background-size: 32px;
+}
+
+.Testimonials-slider .Testimonial-col3 {
+  padding: 75px 25px 18px 25px;
+}
+
+.Testi-Footer>div {
+  display: inline-block;
+  vertical-align: bottom;
+  width: 41%;
+}
+.Testi-Footer {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.Testi-Footer p {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  font-family: Lato;
+  color: #2b708b;
+  font-size: 14px;
+  text-align: left;
+  line-height: initial;
+}
+
+.Testi-Footer p.Testi_author {
+  font-family: 'Roboto', sans-serif;
+  color: #bcbcbc;
+  font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.Testi-Footer p.StarRate {
+  background: url(images/star.png)no-repeat 0 0;
+  height: 18px;
+}
+
+.Testi-Footer p.StarRate.star5{
+background-position:0 0;
+}
+
+.Testi-Footer p.StarRate.star4{
+background-position:0 -22px;
+}
+
+.Testi-Footer p.StarRate.star3{
+background-position:0 -48px;
+}
+
+.Testi-Footer>div:last-child{
+height: 45px;
+  width: 59%;
+}
+
+.GuideData p {
+  line-height: 28px;
+  font-size: 17px;
+  font-style: normal;
+  font-family: 'Roboto', sans-serif;
+  color:#6b6b6b;
+  line-height: 30px;
+}
+.Testi-Footer p.reveiw {
+  color:#2b708b;
+  font-style: normal;
+  font-size: 16px;
+}
+
+.Testi-Footer>div.HealthGrades {
+  background: url(images/logo1.png)no-repeat right bottom/152px auto;
+  
+}
+
+.Testi-Footer>div.RateMDs {
+  background: url(images/logo2.png)no-repeat right bottom/105px auto;
+  
+}
+
+
+
+.Testi-Footer>div.Google {
+ background: url(images/google.png)no-repeat right bottom/80px auto;
+}
+
+.Testi-Footer>div.Yelp {
+ background: url(images/yelp.png)no-repeat right bottom/71px auto;
+}
+
+.Testi-Footer>div.ZocDoc {
+ background:url(images/logo3.png)no-repeat right 24px/81px auto;
+}
+
+.Testi-Footer>div.Doctor {
+ background: url(images/logo4.png)no-repeat right bottom/132px auto;
+}
+
+.Testi-Footer>div.HealthGrades {
+}
+
+.Testimonial-col3{
+position:relative;
+}
+
+.Evet-img{
+  width: 100px;
+  height: 100px;
+  display: block;
+  position: absolute;
+  border-radius: 50%;
+  top: -40px;
+  left: 50%;
+  transform: translatex(-49%);
+-webkit-transform: translatex(-49%);
+}
+
+.Evet-img img{
+width:100%;
+}
+
+.AllTestimonials>div:nth-child(1):before {
+  content: "";
+  width: 100px;
+  height: 100px;
+  display: block;
+  position: absolute;
+  background: #fff url(images/testi-img1.png) 0 0/100% auto;
+  border-radius: 50%;
+  top: -40px;
+  left: 50%;
+  transform: translatex(-49%);
+-webkit-transform: translatex(-49%);
+}
+
+.AllTestimonials>div:nth-child(2):before {
+  content: "";
+  width: 100px;
+  height: 100px;
+  display: block;
+  position: absolute;
+  background: #fff url(images/testi-img2.png) 0 0/100% auto;
+  border-radius: 50%;
+  top: -40px;
+  left: 50%;
+   transform: translatex(-49%);
+-webkit-transform: translatex(-49%);
+}
+
+.AllTestimonials>div:nth-child(3):before {
+  content: "";
+  width: 100px;
+  height: 100px;
+  display: block;
+  position: absolute;
+  background: #fff url(images/testi-img3.png) 0 0/100% auto;
+  border-radius: 50%;
+  top: -40px;
+  left: 50%;
+   transform: translatex(-49%);
+-webkit-transform: translatex(-49%);
+}
+ul.slick-dots {
+  text-align: center;
+}
+
+.Testimonials-slider .slide {
+height: 100%;
+padding: 10px;
+}
+
+.Testimonials-slider  .slick-track
+{
+  display: flex !important;
+  display: -webkit-flex !important;
+}
+
+.Testimonials-slider  .slick-slide
+{
+  height: inherit !important;
+margin-right:55px;
+}
+.Testimonials-slider .slick-list.draggable {
+  margin-right: -55px;
+  padding-top: 40px;
+}
+
+.Testimonials-slider  ul.slick-dots {
+  text-align: center;
+  padding-top: 15px;
+}
+
+.Testimonials-slider .slick-prev.slick-arrow {
+  position: absolute;
+  left: -36px;
+  top: 47%;
+  z-index: 9;
+  transform: translateY(-50%);
+-webkit-transform: translateY(-50%);
+}
+.Testimonials-slider .slick-next.slick-arrow{
+top: 47%;
+  z-index: 9;
+  transform: translateY(-50%);
+-webkit-transform: translateY(-50%);
+}
+
+.TestiDropdownMenu {
+   
+   
+}
+
+.TestiDropdownMenu {
+ text-align: center;
+    background: #f3f3f3;
+border: 4px solid#e4e4e4;
+border-radius: 54px;
+padding: 16px 5px;
+font-size: 24px;
+font-family: 'Open Sans';
+    font-weight: normal;
+color:#000;
+font-style: italic;
+max-width: 910px;
+ margin:auto auto 100px auto;
+
+}
+
+/* .page-id-3737 .TestiDropdownMenu { */
+.TestiDropdownMenu {
+    margin: auto auto auto auto;
+}
+
+.TestiDropdownMenu >div{
+	display:inline-block;
+	vertical-align:middle;
+}
+
+.TestiDropdownMenu select {
+    background: #fff;
+height: 50px;
+color:#000;
+border: 3px solid #e4e4e4;
+    padding-left: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Open Sans';
+    margin-left: 20px;
+    width: 300px;
+}
+
+.TestiDropdownMenu select option {
+    font-size: 14px;
+    color: #6b6b6b;
+
+}
+
+.Testimonials-slider .slick-track {
+  display: block !important;
+  display: block !important;
+}
+.Testimonials-slider .slick-list.draggable {
+  margin-right: 0;
+}
+
+@media (max-width: 1080px){
+  .Testimonials-slider .slick-slide {
+      margin:0 5px;
+  }
+  
+  }
+
+  @media (max-width: 767px){
+    .Testimonials-slider .slick-slide {
+      margin:0 5px;
+  }
+  .Testi-Footer>div {
+      display: inline-block;
+      vertical-align: middle;
+      width: 48%;
+  }
+  .Testi-Footer>div:last-child {
+      height: 38px;
+      width: 48%;
+  }
+  }
+  @media (max-width: 450px){
+
+    .Testimonials-slider .slick-slide {
+        margin:0 0;
+    }
+    
+    }
+
+    .Tinline{
+      display:none;
+      }
+
+      .fanline div#fancybox-content {
+        background: #f0f0f0;
+        border-color: #f0f0f0!important;
+        border-radius: 36px 8px 25px 8px!important;
+      overflow: visible;
+      }
+      
+      .fanline div#fancybox-outer {
+        border: none!important;
+        background: transparent;
+       border-radius: 36px 8px 25px 8px!important;
+      }
+      .fanline div#fancybox-content>div {
+        overflow: visible!important;
+      }
+      
+      .fanlin-content{
+        font-family: 'Lato', sans-serif;
+        color: #6b6b6b;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 30px;
+        padding: 0px 18px 30px;
+      max-width: 600px;
+      
+      }
+      .fanline div#fancybox-outer{
+        border: none!important;
+      }
+      /*
+      .fanline #fancybox-close {
+        top: 3px;
+        right: 3px;
+      }
+      */
+      .fanlin-content>div img {
+        width: 90px;
+        margin-top: -47px;
+        position: relative;
+        /* z-index: 9999; */
+      }
+      .fanlin-content>div {
+        text-align: center;
+        margin-bottom: 14px;
+      }
+      .fanlin-content>div {
+        text-align: center;
+        margin-bottom: 14px;
+        background: url(https://madisonparkpsych.com/wp-content/uploads/2020/06/quote-popup.png);
+        background-size: 32px;
+        background-repeat: no-repeat;
+        background-position: 30px 19px;
+      }
+      
+      
+      .Testimonials-slider .Testi-Footer {
+      
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        left: 0;
+        padding: 0 30px 14px;
+      }
+      .Testimonials-slider .slick-slide {
+        padding-bottom: 70px;
+      }
+
+      .Testimonials-slider .GuideData {
+        min-height: 240px;
+        height: 240px;
+        overflow: hidden;
+       -webkit-transition: all .5s ease-in-out;
+        transition: all .5s ease-in-out;
+      }
+      
+      
+      .TretBoxes>div>div {
+        min-height: 100px;
+        line-height: initial;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .page-id-7704 .Testimonials-slider .GuideData {
+        min-height: 244px;
+        height: 215px;
+      }
+
+      .GuideData p {
+        font-size: 15px;
+        line-height: 25px;
+      }
+      .Testimonials-slider .GuideData {
+        overflow: hidden;
+      }
+      .Testimonials-slider .Testimonial-col3 {
+        /* padding: 75px 15px 18px 15px; */
+        padding: 75px 15px 70px 15px;
+      }
+       .Testi-Footer>div.HealthGrades {
+        background-size: 100% auto;
+      }
+      .TeamSlider .slick-next.slick-arrow {
+        right: 1px;
+      }
+      /* .page-id-3737 .TestiDropdownMenu { */
+      .TestiDropdownMenu {
+        text-align: center;
+      }
+      .TestiDropdownMenu {
+        border-radius: 0;
+        padding: 0;
+        font-size: 16px;
+        margin: auto auto 95px auto;
+      }
+      .TestiDropdownMenu select {
+        height: 39px;
+        color: #6b6b6b;
+        font-size: 16px;
+        margin-left: 0;
+        width: initial;
+        margin-top: 14px;
+      }
+
+      .term-ratemds .TestiDropdownMenu,
+.term-yelp .TestiDropdownMenu,
+.term-google  .TestiDropdownMenu,
+.term-zocdoc .TestiDropdownMenu,
+.term-doctor-com .TestiDropdownMenu,
+.term-healthgrades .TestiDropdownMenu {
+  margin-top: 162px;
+}
+.Testi-Footer>div a{
+  display:none;
+  opacity:0;
+  }
+  .Testi-Footer>div.RateMDs a {
+    display: block;
+    height: 100%;
+    width: 108px;
+    float: right;
+  }
+
+  .page-id-4586 .Testimonials-slider .GuideData {
+    min-height: 244px;
+    height: 244px;
+  }
+
+  /* .AllTestimonials>div:nth-child(2):before,
+.AllTestimonials>div:nth-child(3):before{
+ display:none; 
+} */
+.Testi-Footer>div.ZocDoc {
+  background-size: auto auto;
+  background-position: right center;
+}
+.Testi-Footer>div.HealthGrades, .Testi-Footer>div.RateMDs {
+  background-position: center;
+}
+.Testi-Footer>div.RateMDs{
+  background-size: auto auto;
+}
+
+/* .Testimonials-slider .GuideData {
+  height: 153px;
+  min-height: 153px;
+} */
+.Testi-Footer p.Testi_author {
+  padding-bottom: 0!important;
+}
+
+/* .fanlin-content {
+  font-size: 15px;
+  line-height: 27px;
+  padding: 0px 18px 13px;
+} */
+.TestRowblock p {
+  padding: 0!important;
+}
+
+.page-id-7704 .Testimonials-slider .GuideData ,
+.page-id-4586 .Testimonials-slider .GuideData {
+  min-height: 177px;
+  height: 177px;
+}
+
+@media(max-width:1300px){
+  .Testi-Footer p.Testi_author {
+    font-size: 12px;
+  }
+  .Testi-Footer>div.HealthGrades,
+  .Testi-Footer>div.Doctor{
+    background-size:100% auto;
+  }
+  }
+
+  .Testi-Footer p.Testi_author {
+    font-size: 15px;
+  }
+
+  .GuideData p {
+    font-size: 15px;
+    line-height: 25px;
+  }
+  .Testimonials-slider .GuideData {
+    overflow: hidden;
+  }
+   .Testi-Footer>div.HealthGrades {
+    background-size: 100% auto;
+  }
+
+  /* .page-id-3737 .TestiDropdownMenu { */
+  .TestiDropdownMenu {
+    text-align: center;
+  }
+  .TestiDropdownMenu {
+    border-radius: 0;
+    padding: 0;
+    font-size: 16px;
+    margin: auto auto 95px auto;
+  }
+  .TestiDropdownMenu select {
+    height: 39px;
+    color: #6b6b6b;
+    font-size: 16px;
+    margin-left: 0;
+    width: initial;
+    margin-top: 14px;
+  }
+  
+  .slick-dots li {
+    display: inline-block;
+    vertical-align: top;
+    float: none;
+    width: 7px;
+    height: 7px;
+    overflow: hidden;
+    border-radius: 50%;
+    background: #cac8bc;
+    margin: 0 4px;
+  cursor:pointer;
+  }
+
+  .slick-dots li.slick-active{
+    background: #24728f;
+   }
+   .slick-dots li button {
+     opacity: 0;
+   }
+
+   .slick-prev.slick-arrow {
+    position: absolute;
+  left: -46px;
+  
+    z-index: 9;
+  }
+  
+  .slick-next.slick-arrow {
+    position: absolute;
+    right: -46px;
+  
+    z-index: 9;
+  }
+  
+  .slick-arrow {
+    cursor: pointer;
+  }
+
+  .GuideData p {
+    font-size: 18px;
+    font-style: italic;
+  }
+
+  /* .page-id-3737 .TestiDropdownMenu { */
+  .TestiDropdownMenu {
+    margin: auto auto auto auto;
+    border: none;
+    background: transparent;
+    padding: 0;
+  }
+  /* .page-id-3737 .TestiDropdownMenu { */
+  .TestiDropdownMenu {
+    margin: auto auto auto auto;
+    text-align: right;
+    width: 100%;
+    max-width: 1500px;
+  }
+
+  .DropFullRow>div {
+    width: 100%;
+    max-width: 98%;
+  }
+
+  /* .page-id-3737 .TestiDropdownMenu div { */
+  .TestiDropdownMenu div {
+    color: #393939;
+    font-size: 18px;
+    font-family: Lato;
+  margin-top: 15px;
+  }
+  
+  /* .page-id-3737 .TestiDropdownMenu select, .page-id-3737 .TestiDropdownMenu select option { */
+  .TestiDropdownMenu select, .TestiDropdownMenu select option {
+    font-size: 16px!important;
+    font-family: Lato;
+  }
+  
+  /* .page-id-3737 .TestiDropdownMenu select{ */
+  .TestiDropdownMenu select{
+  width: 242px;
+  height: 40px;
+  color: #999;
+  margin-left: 15px;
+  
+  }
+
+  /* .page-id-3737 .TestiDropdownMenu { */
+  .TestiDropdownMenu {
+    text-align: center;
+  }
+
+  /* .page-id-3737 .TestiDropdownMenu span { */
+  .TestiDropdownMenu span {
+    display: none;
+  }

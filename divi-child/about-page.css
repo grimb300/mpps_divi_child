@@ -49,3 +49,27 @@
 }
 
 /* Old color scheme/text styles */
+.fancy-tabs .et_pb_tabs_controls li:nth-of-type(1) {
+  background: #f8c05f;
+}
+.fancy-tabs .et_pb_tab:nth-of-type(1) {
+  background: rgba(248, 192, 95, 0.5);
+}
+.fancy-tabs .et_pb_tabs_controls li:nth-of-type(2) {
+  background: #363636;
+  color: #fff;
+}
+.fancy-tabs .et_pb_tabs_controls li:nth-of-type(3) {
+  background: #838383;
+  color: #fff;
+}
+.fancy-tabs .et_pb_tabs_controls li:nth-of-type(4) {
+  background: #d3695c;
+  color: #fff;
+}
+.fancy-tabs .et_pb_tabs_controls li:nth-of-type(5) {
+  background: #ba935c;
+}
+.fancy-tabs .et_pb_tabs_controls li:nth-of-type(6) {
+  background: #82ca9c;
+}
